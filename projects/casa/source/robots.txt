@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://casa-bertioga-flavio.santosvitos259.chatgpt.site/sitemap.xml

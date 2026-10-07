@@ -1,34 +1,36 @@
-name: Publicar portfolio
+name: Publicar portfólio e projetos
 on:
   push:
-    branches: ["main"]
+    branches: [main]
   workflow_dispatch:
 permissions:
   contents: read
   pages: write
   id-token: write
 concurrency:
-  group: github-pages
+  group: pages
   cancel-in-progress: true
 jobs:
   deploy:
-    runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
     steps:
-      - name: Baixar os arquivos do repositorio
-        uses: actions/checkout@v4
-      - name: Preparar o portfolio
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - name: Montar site
         run: |
-          mkdir -p _site
+          mkdir _site
           unzip -q portfolio-vitor-github.zip -d _site
+          cp -a site/. _site/
           test -f _site/index.html
           test -f _site/certificados.html
-      - name: Preparar a publicacao
-        uses: actions/upload-pages-artifact@v3
+          test -f _site/projects/gcm/index.html
+          test -f _site/projects/quadra/index.html
+      - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
-      - name: Publicar no GitHub Pages
+      - name: Publicar
         id: deployment
         uses: actions/deploy-pages@v4
