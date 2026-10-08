@@ -24,8 +24,12 @@ jobs:
           mkdir _site
           unzip -q portfolio-vitor-github.zip -d _site
           cp -a site/. _site/
+          cat site-archives/negocios.zip.part* > /tmp/projetos-negocios.zip
+          unzip -q /tmp/projetos-negocios.zip -d _site
           test -f _site/index.html
           test -f _site/certificados.html
+          test -f _site/projects/neycar/index.html
+          test -f _site/projects/casa/index.html
           test -f _site/projects/gcm/index.html
           test -f _site/projects/quadra/index.html
       - uses: actions/upload-pages-artifact@v3

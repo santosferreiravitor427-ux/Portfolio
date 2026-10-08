@@ -10,9 +10,9 @@ Já trabalhei com vendas, rotinas administrativas e atendimento ao cliente. Hoje
 
 | Projeto | O que resolve | Apresentação e código |
 |---|---|---|
-| NeyCar Veículos | Organiza o catálogo e facilita o contato comercial | [Conhecer](projects/neycar) |
+| NeyCar Veículos | Organiza o catálogo e facilita o contato comercial | [Abrir site](https://santosferreiravitor427-ux.github.io/Portfolio/projects/neycar/) · [Ver processo](projects/neycar) |
 | Julie · Arte em Tranças | Apresenta os serviços e os trabalhos da profissional | [Conhecer](projects/julie) |
-| Casa de praia · Bertioga | Reúne fotos e informações para planejar a estadia | [Conhecer](projects/casa) |
+| Casa de praia · Bertioga | Reúne fotos e informações para planejar a estadia | [Abrir site](https://santosferreiravitor427-ux.github.io/Portfolio/projects/casa/) · [Ver processo](projects/casa) |
 | Missão GCM | Organiza aulas, prática, revisões e progresso | [Conhecer](projects/gcm) |
 | Quadra · Controle esportivo | Registra partidas e ações para gerar estatísticas e PDFs | [Conhecer](projects/quadra) |
 
