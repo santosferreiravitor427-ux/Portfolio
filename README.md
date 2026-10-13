@@ -27,9 +27,13 @@ Cada apresentação explica a ideia, as funções, o processo, minha participaç
 
 [Ver certificados](https://santosferreiravitor427-ux.github.io/Portfolio/certificados.html).
 
+## Apresentação profissional
+
+Logo após a capa, um vídeo conceitual de 10 segundos conecta as principais áreas da minha trajetória: comunicação, vendas, administrativo, tecnologia e inteligência artificial. O material foi criado com IA e está identificado dessa forma no próprio portfólio.
+
 ## Por trás do portfólio
 
-A interface combina azul escuro, tons claros e detalhes champagne. Os projetos têm caminhos diretos para demonstrações e documentação. A foto do salto de paraquedas apresenta um lado pessoal: curiosidade, preparação e disposição para sair da zona de conforto.
+A interface combina azul escuro, tons claros e verde vibrante. Os projetos têm caminhos diretos para demonstrações e documentação. A foto do salto de paraquedas apresenta um lado pessoal: curiosidade, preparação e disposição para sair da zona de conforto.
 
 O portfólio é um site estático em HTML e CSS. A publicação usa GitHub Actions e GitHub Pages. A pasta `site/` mantém a versão atual da página e das demonstrações, enquanto os códigos dos projetos ficam nas respectivas pastas.
 
