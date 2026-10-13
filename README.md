@@ -33,7 +33,7 @@ Logo após a capa, um vídeo conceitual de 10 segundos conecta as principais ár
 
 ## Por trás do portfólio
 
-A identidade visual combina preto, espresso e dourado, com a capa principal preservada em cores para mostrar personalidade. O vídeo profissional, as experiências e os projetos têm hierarquia clara e leitura rápida. Os projetos têm caminhos diretos para demonstrações e documentação. A foto do salto de paraquedas apresenta um lado pessoal: curiosidade, preparação e disposição para sair da zona de conforto.
+A identidade visual combina azul profundo e verde vibrante, com a capa principal preservada em cores. Contornos, cards com profundidade, botões destacados e detalhes gráficos conectam as seções. O vídeo profissional, as experiências e os projetos têm hierarquia clara e leitura rápida. Os projetos têm caminhos diretos para demonstrações e documentação. A foto do salto de paraquedas apresenta um lado pessoal: curiosidade, preparação e disposição para sair da zona de conforto.
 
 O portfólio é um site estático em HTML e CSS. A publicação usa GitHub Actions e GitHub Pages. A pasta `site/` mantém a versão atual da página e das demonstrações, enquanto os códigos dos projetos ficam nas respectivas pastas.
 
